@@ -1,0 +1,16 @@
+button {
+    background-color: transparent;
+    border: none;
+    img {
+      vertical-align: middle;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  
+  .decrementar {
+    background: #D9D9D9;
+  }
+  .incrementar {
+    background: #E8DEF8;
+  }

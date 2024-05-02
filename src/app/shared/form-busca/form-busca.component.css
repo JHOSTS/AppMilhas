@@ -1,0 +1,31 @@
+.form-busca {
+    margin: 40px 0;
+    display: block;
+    .flex-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .input-container {
+      margin-bottom: -1.25em;
+      width: 25%;
+    }
+    .mat-button-toggle-checked {
+      background-color: #F7F2FA;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  }
+
+  button.example-custom-date-class {
+    background: orange;
+    border-radius: 100%;
+  }
+
+  .input-container-date-picker {
+    width: 18%;
+    margin: 5px 0px 0px 15px
+  }

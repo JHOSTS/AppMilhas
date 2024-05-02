@@ -1,0 +1,50 @@
+<section class="modal">
+    <mat-dialog-actions>
+        <button mat-button mat-dialog-close class="botao-fechar" (click)="closeDialog()">
+        <mat-icon>cancel</mat-icon>
+        </button>
+    </mat-dialog-actions>
+    <h2 mat-dialog-title>Viajante</h2>
+    <mat-dialog-content>
+         <div class="selecao-idade">
+            <ul>
+                <li>Adultos</li>
+                <li>(Acima de 12 anos)</li>
+                <li>
+                    <app-botao-controle operacao="decrementar"></app-botao-controle>
+                    <span>1</span>
+                    <app-botao-controle operacao="incrementar"></app-botao-controle>
+                </li>
+            </ul>
+            <ul>
+                <li>Crianças</li>
+                <li>(Entre 2 e 11 anos)</li>
+                <li>
+                    <app-botao-controle operacao="decrementar"></app-botao-controle>
+                    <span>1</span>
+                    <app-botao-controle operacao="incrementar"></app-botao-controle>
+                </li>
+            </ul>
+            <ul>
+                <li>Bebês</li>
+                <li>(Até 2 anos)</li>
+                <li>
+                    <app-botao-controle operacao="decrementar"></app-botao-controle>
+                    <span>1</span>
+                    <app-botao-controle operacao="incrementar"></app-botao-controle>
+                </li>
+            </ul>
+        </div>
+        <div class="selecao-categoria ">
+            <h2 mat-dialog-title>Categoria</h2>
+            <mat-chip-listbox aria-label="Seleção de categoria">
+                <mat-chip-option selected>Executiva</mat-chip-option>
+                <mat-chip-option>Econômica</mat-chip-option>
+            </mat-chip-listbox>
+        </div>
+        <mat-divider class="divider"></mat-divider>
+        <mat-dialog-actions class="modal-actions">
+            <button mat-flat-button color="primary">Buscar</button>
+        </mat-dialog-actions>
+    </mat-dialog-content>
+</section>
